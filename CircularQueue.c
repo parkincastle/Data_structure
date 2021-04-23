@@ -67,6 +67,7 @@ int main() {
 	Enqueue(10);
 	printf("dequeue : %d\n", Dequeue());
 	printf("dequeue : %d\n", Dequeue());
+	printf("dequeue : %d\n", Dequeue());
 
 
 
