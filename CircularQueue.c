@@ -62,8 +62,11 @@ int main() {
 	printf("dequeue : %d\n", Dequeue());
 	printf("dequeue : %d\n", Dequeue());
 	printf("dequeue : %d\n", Dequeue());
-
-
+	Enqueue(8);
+	Enqueue(9);
+	Enqueue(10);
+	printf("dequeue : %d\n", Dequeue());
+	printf("dequeue : %d\n", Dequeue());
 
 
 

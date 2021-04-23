@@ -40,7 +40,7 @@ int main() {
 	for (int i = 0; i < 3; i++) {
 		printf("[%d]번째 문자열 입력 : ", i + 1);
 		gets(tempAry);
-		str[i] = (char*)malloc(strlen(tempAry) + 1);	
+		str[i] = (char*)malloc(strlen(tempAry) + 1);
 		// 핵심!  문자열 저장 공간을 파악해서 그만큼만 할당한다.(NULL 포함될 만큼)
 		// 1. malloc('숫자') void포인터를 반홤=> "사이즈 만큼의 공간을 메모리에 할당해줘"
 		// 2. (char*) : 형변환 "방금내가 넘겨준 공간을 char * 형태로 저장 공간으로 사용할거야"
